@@ -86,6 +86,9 @@
 .sectiontwo .breako{
     width: 25%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url(../Images/foodtop/breakfast.jpg);
     background-position: center;
     background-size: cover;
@@ -93,14 +96,37 @@
 .sectiontwo .lunch{
     width: 25%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url(../Images/foodtop/lunch.jpg);
     background-position: center;
     background-size: cover;
 }
+.lunch .opaque{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    opacity: 0.5;
+}
 .sectiontwo .supper{
     width: 25%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url(../Images/foodtop/dinner.jpg);
     background-position: center;
     background-size: cover;
+}
+.italic{
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+}
+.opaque p{
+    color: rgb(221, 210, 210);
 }
