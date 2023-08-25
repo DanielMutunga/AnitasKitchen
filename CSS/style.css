@@ -46,3 +46,50 @@
     /* background-color: aqua; */
     margin-top: 70px;
 }
+/* End of section One */
+/* Start Of section Two */
+.sectiontwo{
+    height: 30vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+.sectiontwo .time{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+}
+.time .upper{
+    height: 50%;
+    width: 100%;
+    background-color: gray;
+}
+.time .lower{
+    height: 50%;
+    width: 100%;
+    background-color: #F15A29;
+}
+.sectiontwo .breako{
+    width: 25%;
+    height: 100%;
+    background-image: url(../Images/foodtop/breakfast.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sectiontwo .lunch{
+    width: 25%;
+    height: 100%;
+    background-image: url(../Images/foodtop/lunch.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sectiontwo .supper{
+    width: 25%;
+    height: 100%;
+    background-image: url(../Images/foodtop/dinner.jpg);
+    background-position: center;
+    background-size: cover;
+}
