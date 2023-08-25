@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Serif', serif;
+}
+.sectionone{
+    height: 90vh;
+    width: 100%;
+    background-image: url(../Images/backgrounds/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+
+}
+.sectionone .logo{
+    height: 100%;
+    width: 20%;
+    /* background-color: aqua; */
+}
+.logo img{
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.sectionone .banner{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.banner p{
+    font-size: 50px;
+    font-weight: 100;
+    color: rgb(238, 234, 234);
+    padding-top: 5px;
+}
+.banner span{
+    font-weight: 500;
+    color: white;
+}
+.bannercontent{
+    /* background-color: aqua; */
+    margin-top: 70px;
+}
