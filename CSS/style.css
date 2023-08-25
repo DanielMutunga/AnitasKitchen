@@ -244,3 +244,18 @@
 /* End of section Three */
 
 /* Start Of section Four */
+.sectionfour{
+    height: 70vh;
+    width: 100%;
+    background-image: url(../Images/backgrounds/foodsBg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.sectionfour .textdiv{
+    height: 75%;
+    width: 75%;
+    background-color: #fff;
+}
