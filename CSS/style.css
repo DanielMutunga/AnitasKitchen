@@ -247,7 +247,7 @@
 .sectionfour{
     height: 70vh;
     width: 100%;
-    background-image: url(../Images/backgrounds/foodsBg.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../Images/backgrounds/foodsBg.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -257,5 +257,63 @@
 .sectionfour .textdiv{
     height: 75%;
     width: 75%;
+    display: flex;
+    flex-direction: column;
     background-color: #fff;
+}
+.textdiv .header{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.header .fastfood{
+    height: 100%;
+    width: 25%;
+    color: #F15A29;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.header .drinks{
+    height: 100%;
+    width: 25%;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(163, 157, 157);
+}
+.header .chicken{
+    height: 100%;
+    width: 25%;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: solid 1px grey;
+    border-right: solid 1px grey;
+    background-color:rgb(163, 157, 157);
+}
+.header .rice{
+    height: 100%;
+    width: 25%;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(163, 157, 157);
+}
+.textdiv .photos{
+    height: 80%;
+    width: 100%;
+    background-color: aquamarine;
 }
