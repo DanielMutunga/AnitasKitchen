@@ -130,3 +130,24 @@
 .opaque p{
     color: rgb(221, 210, 210);
 }
+/* End Of section Two */
+
+/* Start of section Three */
+.sectionthree{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.sectionthree .upperdiv{
+    height: 48%;
+    width: 75%;
+    background-color: aqua;
+}
+.sectionthree .lowerdiv{
+    height: 48%;
+    width: 75%;
+    background-color: aquamarine;
+}
