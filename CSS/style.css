@@ -383,8 +383,28 @@
     margin: 5px;
 }
 .maindiv .aboutMenu{
-    height: 80%;
+    height: 70%;
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
     border-left: solid 1px rgb(196, 182, 182);
     /* background-color: aquamarine; */
+}
+.aboutMenu h1{
+    color: #F15A29;
+    font-size: 18px;
+}
+.testmony h1{
+    color: #F15A29;
+    font-size: 18px;
+}
+.testmony h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.aboutMenu p{
+    line-height: 1.7;
 }
