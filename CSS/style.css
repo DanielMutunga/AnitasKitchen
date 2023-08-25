@@ -16,7 +16,6 @@
 .sectionone .logo{
     height: 100%;
     width: 20%;
-    /* background-color: aqua; */
 }
 .logo img{
     height: 50px;
@@ -43,7 +42,6 @@
     color: white;
 }
 .bannercontent{
-    /* background-color: aqua; */
     margin-top: 70px;
 }
 /* End of section One */
@@ -109,8 +107,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
-    opacity: 0.5;
+    background: rgba(231, 217, 217, 0.6);
 }
 .sectiontwo .supper{
     width: 25%;
@@ -258,11 +255,12 @@
     height: 75%;
     width: 75%;
     display: flex;
+    align-items: center;
     flex-direction: column;
     background-color: #fff;
 }
 .textdiv .header{
-    height: 20%;
+    height: 15%;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -314,29 +312,16 @@
 }
 .textdiv .photos{
     height: 80%;
-    width: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    /* position: relative; */
-}
-.photos .mshale1{
-    /* position: relative;
-    margin-left: 100px; */
-}
-.photos .mshale{
-    /* position: absolute; */
-    /* position: relative;
-    margin-right: 100px; */
 }
 .photos p{
     color: #F15A29;
     margin-top: 10px;
     font-weight: 600;
-}
-.photos img{
-    
 }
 /* End of section Four */
 
@@ -438,9 +423,8 @@
 .action input{
     height: 40px;
     width: 500px;
-    background-color: rgba(255, 255, 255, 0.6);
+    background: rgba(231, 217, 217, 0.6);
     border: none;
-    opacity: 0.3;
     border-radius: 5px;
 }
 .action button{
@@ -471,7 +455,7 @@
     position: relative;
 }
 .three img{
-    color: #F15A29;
+    filter: invert(37%) sepia(31%) saturate(3094%) hue-rotate(347deg) brightness(108%) contrast(89%);
     padding: 5px;
 }
 .four{
@@ -498,7 +482,6 @@
     color: white;
 }
 .one h1{
-    /* font-size: 50px; */
     font-weight: 400;
     margin-left: 30px;
 }
