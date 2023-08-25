@@ -139,7 +139,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .sectionthree .upperdiv{
     height: 48%;
@@ -148,7 +148,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
 }
 
 .upperdiv .img{
@@ -170,7 +169,6 @@
     flex-direction: column;
     align-items: start;
     justify-content: space-evenly;
-    /* background-color: rgb(62, 107, 146); */
 }
 .text .Heading{
     font-weight: 600;
@@ -184,6 +182,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    font-weight: 600;
 }
 .arrow{
     margin-left: 10px;
@@ -198,13 +197,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: aquamarine;
 }
 .lowerdiv .img{
     height: 80%;
     width: 48%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: white;
@@ -215,14 +213,12 @@
 
 .lowerdiv .text{
     height: 80%;
-    width: 40%;
-    
+    width: 40%; 
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     text-align: end;
     justify-content: flex-end;
-    background-color: rgb(62, 107, 146);
 }
 .lowerdiv .text button{
     padding: 10px 25px;
@@ -235,6 +231,7 @@
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-weight: 600;
 }
 .lowerdiv.text h1{
     font-size: 32px;
@@ -244,3 +241,6 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+/* End of section Three */
+
+/* Start Of section Four */
