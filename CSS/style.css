@@ -315,5 +315,30 @@
 .textdiv .photos{
     height: 80%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
     background-color: aquamarine;
+    /* position: relative; */
 }
+.photos .mshale1{
+    /* position: relative;
+    margin-left: 100px; */
+}
+.photos .mshale{
+    /* position: absolute; */
+    /* position: relative;
+    margin-right: 100px; */
+}
+.photos p{
+    color: #F15A29;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.photos img{
+    
+}
+/* End of section Four */
+
+/* Start of section Five */
