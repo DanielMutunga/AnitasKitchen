@@ -11,7 +11,7 @@
     background-size: cover;
     display: flex;
     flex-direction: row;
-
+    
 }
 .sectionone .logo{
     height: 100%;
@@ -30,19 +30,26 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
+/* .biglogo{
+    position: absolute;
+    top: 0;
+} */
 .banner p{
-    font-size: 50px;
+    font-size: 40px;
+    letter-spacing: 2px;
     font-weight: 100;
     color: rgb(238, 234, 234);
-    padding-top: 5px;
+    padding-top: 25px;
 }
 .banner span{
     font-weight: 500;
     color: white;
 }
 .bannercontent{
-    margin-top: 70px;
+    
+    margin-top: 20px;
 }
 /* End of section One */
 /* Start Of section Two */
@@ -67,7 +74,7 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(214, 208, 208);
-    color: #272525;
+    color: #4b4949;
 }
 .time .lower{
     height: 50%;
@@ -79,7 +86,8 @@
     color: white;
 }
 .time p{
-    font-size: 28px;
+    font-size: 25px;
+    font-weight: 400;
 }
 .sectiontwo .breako{
     width: 25%;
@@ -180,6 +188,7 @@
     align-items: center;
     justify-content: center;
     font-weight: 600;
+    border-radius: 3px;
 }
 .arrow{
     margin-left: 10px;
@@ -228,7 +237,9 @@
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-weight: 600;
+    /* font-weightqqqqqqborder-left: solid 1px #fcdcd6; */
+    /* borqder-right: solid 1px #fcdcd6; */
+    border-radius: 3px;
 }
 .lowerdiv.text h1{
     font-size: 32px;
@@ -373,27 +384,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
     text-align: center;
     border-left: solid 1px rgb(196, 182, 182);
-    background-color: aquamarine;
+    /* backgrouqqnd-color: aquamarine; */
 }
 .aboutMenu h1{
     color: #F15A29;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .testmony h1{
     color: #F15A29;
     font-size: 18px;
+}
+.testmony p{
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 .testmony h4{
     margin-top: 5px;
     margin-bottom: 5px;
 }
 .aboutMenu p{
-    line-height: 1.7;
-    /* font-sizeq: 15px; */
+    line-height: 2.0;
+    font-size: 13px;
 }
 /* End of Section Five */
 
@@ -421,6 +436,7 @@
     margin-left: 50px;
     font-weight: 600;
     margin-bottom: 20px;
+    /* letter-spacing: 1px;q */
 }
 .action input{
     height: 40px;
@@ -463,7 +479,7 @@
     position: absolute;
     bottom: 5%;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 200;
 }
 .three{
@@ -475,14 +491,22 @@
     top: 40%;
     color: white;
 }
+.two p{
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
 .one{
     position: absolute;
     top: 20%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     color: white;
 }
 .one h1{
     font-weight: 400;
-    margin-left: 30px;
+    margin-left: 5px;
+    font-size: 30px;
 }
